@@ -15,6 +15,8 @@ const BALL_SIZE = 8;
 const PADDLE_WIDTH = 100;
 const PADDLE_HEIGHT = 12;
 const PADDLE_Y_OFFSET = 30;
+const FRAME_DURATION = 1000 / 60;
+
 let ballX, ballY, ballDx, ballDy;
 let paddleX;
 let rightPressed = false;
@@ -27,7 +29,6 @@ let animationId;
 let initialBallSpeed = 3;
 let isGameOver = false;
 let gameMessage = '';
-const FRAME_DURATION = 1000 / 60;
 let loopTimer = null;
 
 let brickRowColors = [
