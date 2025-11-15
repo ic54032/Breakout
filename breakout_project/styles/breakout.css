@@ -1,0 +1,18 @@
+ body {
+      background: #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Verdana, Helvetica, Arial, sans-serif;
+      color: #fff;
+    }
+    canvas {
+      background: black;
+      border: 5px solid white;
+      display: block;
+    }
+    .ball-color { color: #ffffff; }
+    .paddle-color { color: #cccccc; }
+    #wrapper { text-align: center; }
